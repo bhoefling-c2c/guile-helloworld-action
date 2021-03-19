@@ -8,3 +8,8 @@
 ## Reference
 
 * https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action
+
+## License
+
+Licensed under the GPL, version 3 or later, at your choice.
+See *COPYING* for the license.
