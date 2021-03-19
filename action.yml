@@ -1,0 +1,14 @@
+name: Guile HelloWorld Action
+description: A GitHub Example Action written in Guile and Docker
+branding:
+inputs:
+  name:
+    required: true
+    default: World
+    description: Name of the person to greet
+outputs:
+  full-greeting:
+    description: 'The full string of the greeting'
+runs:
+  using: docker
+  image: Dockerfile
